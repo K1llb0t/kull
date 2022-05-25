@@ -83,7 +83,7 @@ dependencies {
     embed 'com.github.therealbush:eventbus:1.0.2'
 
     // use all of the jars in the libs directory
-    implementation fileTree('libraries')
+    implementation fileTree('run/libraries')
 }
 
 jar {
