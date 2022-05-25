@@ -80,10 +80,10 @@ dependencies {
     embed 'com.github.litarvan:OpenAuth:1.1.2'
 
     // BUSHBUS!!!!!!
-	embed 'com.github.therealbush:eventbus:1.0.2'
+    embed 'com.github.therealbush:eventbus:1.0.2'
 
     // use all of the jars in the libs directory
-    implementation fileTree('run/libraries')
+    implementation fileTree('libraries')
 }
 
 jar {

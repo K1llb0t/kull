@@ -113,7 +113,6 @@ gradle-app.setting
 
 # Common working directory
 !run/assets
-!run/libraries/*
 run/*
 
 # Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
